@@ -1,0 +1,29 @@
+/* WhatWeDo.css */
+.what-we-do {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #e82324;
+    color: white;
+  }
+  
